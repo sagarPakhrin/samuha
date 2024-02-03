@@ -1,12 +1,10 @@
+import { Ui } from '@samuha/ui';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="web" />
+    <div className="bg-red-500">
+      <Ui />
     </div>
   );
 }
