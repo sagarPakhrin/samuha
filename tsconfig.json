@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@samuha/ui": ["libs/ui/src/index.ts"],
-      "@samuha/utils": ["libs/utils/src/index.ts"]
+      "@samuha/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
